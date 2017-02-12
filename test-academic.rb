@@ -2,7 +2,7 @@
 #hopeyuan
 require 'minitest/autorun'
 require_relative 'academic'
-
+#TianxiaDong
 class TestSubject < MiniTest::Test
   def setup
     @subject = Subject.new 'Module 1',2,5
