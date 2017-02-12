@@ -6,7 +6,10 @@ class TestSubject < MiniTest::Test
     @subject = Subject.new 'Module 1',2,5
     @topic1 = Topic.new(6,"topic 1") ;
     @topic2 = Topic.new(7,"topic 2") ;
+
+    @topic5 = Topic.new(6,"topic 5") ;
     @topic3 = Topic.new(5,"topic 3") ;;
+
   end
 
   def teardown
@@ -58,3 +61,4 @@ class TestSubject < MiniTest::Test
       @subject.addTopic @topic3
   end
 end
+
