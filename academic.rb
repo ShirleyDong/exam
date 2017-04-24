@@ -1,5 +1,3 @@
-WKS_PER_SEMESTER = 12
-
 class Topic
   attr_reader   :noLectures, :name 
   
